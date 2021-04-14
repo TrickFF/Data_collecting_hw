@@ -70,12 +70,12 @@ def salary(s):
     if sal_final[0] == 'от':
         return sal_final[1], None, sal_final[2]
     elif sal_final[0] == 'до':
-        return None, sal_final[1], sal_final[2]
+        return None, int(sal_final[1]), sal_final[2]
     else:
         if len(sal_final) == 3:
-            return sal_final[0], sal_final[1], sal_final[2]
+            return int(sal_final[0]), int(sal_final[1]), sal_final[2]
         elif len(sal_final) == 2:
-            return sal_final[0], sal_final[0], sal_final[1]
+            return int(sal_final[0]), int(sal_final[0]), sal_final[1]
         else:
             return print(f'Аларм! Проблема в описании оплаты! - {s}')
 
@@ -89,7 +89,7 @@ def salary_hh(s):
         s['currency'] = 'руб.'
 
     if s != None:
-        return s['from'], s['to'], s['currency']
+        return int(s['from']) if s['from'] != None else s['from'], int(s['to']) if s['to'] != None else s['to'], s['currency']
     else:
         return print(f'Аларм! Проблема в описании оплаты! - {s}')
 
@@ -177,12 +177,11 @@ for i in range(n):
         # pprint(serial_link_1)
 
         # Выводим информацию по заработной плате
-        profession_salary_1 = profession.find('span', {'class': '_3mfro _2Wp8I PlM3e _2JVkc _2VHxz'})
+        profession_salary_1 = profession.find('span', {'class': '_3mfro _2Wp8I PlM3e _2JVkc _2VHxz'}).getText()
 
-        for el in profession_salary_1:
-            profession_salary += str(el).replace('<span class="_3mfro _2Wp8I PlM3e _2JVkc _2VHxz">', '')\
-                .replace('<!-- -->', '').replace('</span>', '').replace('\xa0', '').replace('<span>', '')\
-                .replace('руб.', ' руб.').replace('—', ' ').replace('/месяц', '')
+        profession_salary = profession_salary_1.replace('\xa0', '').replace("от", "от ").replace('до', 'до ')\
+                .replace('руб', ' руб').replace('—', ' ').replace('/месяц', '').replace('до г', 'дог')
+
         min = salary(profession_salary)[0]
         max = salary(profession_salary)[1]
         curr = salary(profession_salary)[2]
