@@ -1,0 +1,332 @@
+,_id,site,name,min_wage,max_wage,currency,link
+0,hh43723290,https://hh.ru/,Python-разработчик,90000.0,130000.0,руб.,https://hh.ru/vacancy/43723290
+1,hh43784551,https://hh.ru/,Разработчик Python,,50000.0,руб.,https://hh.ru/vacancy/43784551
+2,hh43904365,https://hh.ru/,Программист Python,60000,200000.0,руб.,https://hh.ru/vacancy/43904365
+3,hh43577231,https://hh.ru/,Python-специалист,70000,90000.0,руб.,https://hh.ru/vacancy/43577231
+4,hh43410882,https://hh.ru/,Python разработчик (удаленно),130000,,руб.,https://hh.ru/vacancy/43410882
+5,hh43377259,https://hh.ru/,Senior Python Developer,200000,250000,руб.,https://hh.ru/vacancy/43377259
+6,hh39388485,https://hh.ru/,Senior Python Backend Developer (Machine Learning),250000,350000,руб.,https://hh.ru/vacancy/39388485
+7,hh43511627,https://hh.ru/,Старший разработчик (Python),3500,4500,USD,https://hh.ru/vacancy/43511627
+8,hh30005963,https://hh.ru/,Python developer,4000,,USD,https://hh.ru/vacancy/30005963
+9,hh43693893,https://hh.ru/,Аналитик Python,60000,80000,руб.,https://hh.ru/vacancy/43693893
+10,hh43628247,https://hh.ru/,Разработчик Python (Django),100000,160000,руб.,https://hh.ru/vacancy/43628247
+11,hh42899748,https://hh.ru/,Python Developer,,150000,руб.,https://hh.ru/vacancy/42899748
+12,hh43693023,https://hh.ru/,Python / C++ разработчик,150000,230000,руб.,https://hh.ru/vacancy/43693023
+13,hh43543827,https://hh.ru/,Младший Python разработчик / Junior Python Developer (Back-end),,,,https://hh.ru/vacancy/43543827
+14,hh43809518,https://hh.ru/,Junior Python developer,,,,https://hh.ru/vacancy/43809518
+15,hh43661985,https://hh.ru/,Junior Data scientist (ML/Python),,,,https://hh.ru/vacancy/43661985
+16,hh43395421,https://hh.ru/,Программист Python,70000,150000,руб.,https://hh.ru/vacancy/43395421
+17,hh43242292,https://hh.ru/,"Разработчик-Python (Django, DRF)",170000,220000,руб.,https://hh.ru/vacancy/43242292
+18,hh39736489,https://hh.ru/,"Python-разработчик (Django, DRF)",60000,150000,руб.,https://hh.ru/vacancy/39736489
+19,hh43905874,https://hh.ru/,Python developer/Data Engineer,3000,4000,USD,https://hh.ru/vacancy/43905874
+20,hh43651376,https://hh.ru/,Middle Python Developer,240000,,руб.,https://hh.ru/vacancy/43651376
+21,hh43892687,https://hh.ru/,Python Developer (Удалённо),60000,100000,UAH,https://hh.ru/vacancy/43892687
+22,hh43850921,https://hh.ru/,ML инженер (Python разработчик / Data scientist),90000,200000,руб.,https://hh.ru/vacancy/43850921
+23,hh43809461,https://hh.ru/,Junior Python developer,,,,https://hh.ru/vacancy/43809461
+24,hh43891139,https://hh.ru/,Инженер-стажер в отдел разработки внедрения (Python),,,,https://hh.ru/vacancy/43891139
+25,hh43832881,https://hh.ru/,Python-разработчик,60000,100000,руб.,https://hh.ru/vacancy/43832881
+26,hh43729892,https://hh.ru/,Python разработчик (Middle+/Senior),200000,400000,руб.,https://hh.ru/vacancy/43729892
+27,hh43760777,https://hh.ru/,Python программист (Django),,,,https://hh.ru/vacancy/43760777
+28,hh43558794,https://hh.ru/,Программист Python,,150000,руб.,https://hh.ru/vacancy/43558794
+29,hh43461266,https://hh.ru/,Python разработчик,90000,120000,руб.,https://hh.ru/vacancy/43461266
+30,hh43371507,https://hh.ru/,Golang/Python разработчик,150000,,руб.,https://hh.ru/vacancy/43371507
+31,hh43282114,https://hh.ru/,Разработчик Python,180000,,руб.,https://hh.ru/vacancy/43282114
+32,hh43797905,https://hh.ru/,Python Developer / ML Engineer,5000,8000,USD,https://hh.ru/vacancy/43797905
+33,hh43835690,https://hh.ru/,Разработчик Python / Django,70000,80000,руб.,https://hh.ru/vacancy/43835690
+34,hh43395422,https://hh.ru/,Программист Python,70000,150000,руб.,https://hh.ru/vacancy/43395422
+35,hh42618012,https://hh.ru/,Разработчик Python,118000,,руб.,https://hh.ru/vacancy/42618012
+36,hh40547800,https://hh.ru/,Python разработчик,150000,220000,руб.,https://hh.ru/vacancy/40547800
+37,hh42277767,https://hh.ru/,Разработчик Python отдела DNS,150000,,руб.,https://hh.ru/vacancy/42277767
+38,hh43850827,https://hh.ru/,Программист Python,150000,200000,руб.,https://hh.ru/vacancy/43850827
+39,hh43546409,https://hh.ru/,Python Developer,,,,https://hh.ru/vacancy/43546409
+40,hh43766255,https://hh.ru/,Разработчик Python,,,,https://hh.ru/vacancy/43766255
+41,hh43190457,https://hh.ru/,Python Developer,,,,https://hh.ru/vacancy/43190457
+42,hh43314180,https://hh.ru/,Python developer,180000,230000,руб.,https://hh.ru/vacancy/43314180
+43,hh43573702,https://hh.ru/,Python developer,,,,https://hh.ru/vacancy/43573702
+44,hh40103604,https://hh.ru/,Python developer,50000,60000,руб.,https://hh.ru/vacancy/40103604
+45,hh43308988,https://hh.ru/,Python разработчик (Django),100000,,руб.,https://hh.ru/vacancy/43308988
+46,hh43107859,https://hh.ru/,Python разработчик,120000,150000,руб.,https://hh.ru/vacancy/43107859
+47,hh43838111,https://hh.ru/,Ведущий разработчик Python (Team Lead),250000,300000,руб.,https://hh.ru/vacancy/43838111
+48,hh43116856,https://hh.ru/,Middle Python Developer,60000,130000,руб.,https://hh.ru/vacancy/43116856
+49,hh43128938,https://hh.ru/,Lead Python developer/Data Engineer,6000,8000,USD,https://hh.ru/vacancy/43128938
+50,hh42277259,https://hh.ru/,Python-разработчик,160000,200000,руб.,https://hh.ru/vacancy/42277259
+51,hh42601947,https://hh.ru/,Python-разработчик в IT-проект (в Сочи),130000,,руб.,https://hh.ru/vacancy/42601947
+52,hh43574806,https://hh.ru/,Python-разработчик,200000,,руб.,https://hh.ru/vacancy/43574806
+53,hh43232756,https://hh.ru/,Программист Python,60000,130000,руб.,https://hh.ru/vacancy/43232756
+54,hh43307525,https://hh.ru/,Python developer,800,1500,USD,https://hh.ru/vacancy/43307525
+55,hh43114365,https://hh.ru/,Аналитик Python,100000,,руб.,https://hh.ru/vacancy/43114365
+56,hh42366925,https://hh.ru/,Python-разработчик,200000,,руб.,https://hh.ru/vacancy/42366925
+57,hh43449785,https://hh.ru/,Программист Python,,90000,руб.,https://hh.ru/vacancy/43449785
+58,hh43853514,https://hh.ru/,Python разработчик в отдел аналитики,,,,https://hh.ru/vacancy/43853514
+59,hh43129000,https://hh.ru/,Python Software Developer,180000,250000,руб.,https://hh.ru/vacancy/43129000
+60,hh43828438,https://hh.ru/,Python developer,,220000,руб.,https://hh.ru/vacancy/43828438
+61,hh43889823,https://hh.ru/,Junior Python Developer,45000,55000,руб.,https://hh.ru/vacancy/43889823
+62,hh40612238,https://hh.ru/,Python Developer,,,,https://hh.ru/vacancy/40612238
+63,hh43128939,https://hh.ru/,Lead Python developer/Data Engineer,6000,8000,USD,https://hh.ru/vacancy/43128939
+64,hh43371453,https://hh.ru/,Middle Python Developer,150000,200000,руб.,https://hh.ru/vacancy/43371453
+65,hh43440824,https://hh.ru/,Разработчик desktop приложений (Python),200000,,руб.,https://hh.ru/vacancy/43440824
+66,hh43373497,https://hh.ru/,Разработчик Python (backend),150000,,руб.,https://hh.ru/vacancy/43373497
+67,hh43815837,https://hh.ru/,Python senior developer / Старший Python-Разработчик,220000,,руб.,https://hh.ru/vacancy/43815837
+68,hh43803674,https://hh.ru/,Team Lead Python,,,,https://hh.ru/vacancy/43803674
+69,hh43574805,https://hh.ru/,Python-разработчик,200000,,руб.,https://hh.ru/vacancy/43574805
+70,hh37430732,https://hh.ru/,Pyth‎on Developer,,,,https://hh.ru/vacancy/37430732
+71,hh43079780,https://hh.ru/,Python developer (Python+Apache Airflow),,,,https://hh.ru/vacancy/43079780
+72,hh43816988,https://hh.ru/,Разработчик Python,60000,120000,руб.,https://hh.ru/vacancy/43816988
+73,hh43890805,https://hh.ru/,Backend разработчик (Python),,,,https://hh.ru/vacancy/43890805
+74,hh43449801,https://hh.ru/,Программист Python,,90000,руб.,https://hh.ru/vacancy/43449801
+75,hh43858690,https://hh.ru/,Python Developer,,,,https://hh.ru/vacancy/43858690
+76,hh43796349,https://hh.ru/,Python-разработчик,170000,230000,руб.,https://hh.ru/vacancy/43796349
+77,hh43197295,https://hh.ru/,Python разработчик,,,,https://hh.ru/vacancy/43197295
+78,hh43238180,https://hh.ru/,Python разработчик,,150000,руб.,https://hh.ru/vacancy/43238180
+79,hh43816907,https://hh.ru/,Python Developer (Backend),,,,https://hh.ru/vacancy/43816907
+80,hh43609319,https://hh.ru/,Python developer,100000,140000,руб.,https://hh.ru/vacancy/43609319
+81,hh42366923,https://hh.ru/,Python-разработчик,200000,,руб.,https://hh.ru/vacancy/42366923
+82,hh43818527,https://hh.ru/,Python разработчик,100000,,руб.,https://hh.ru/vacancy/43818527
+83,hh43526632,https://hh.ru/,Разработчик Python,60000,,руб.,https://hh.ru/vacancy/43526632
+84,hh41841465,https://hh.ru/,Разработчик Python,200000,,руб.,https://hh.ru/vacancy/41841465
+85,hh43199880,https://hh.ru/,Python developer,,,,https://hh.ru/vacancy/43199880
+86,hh42633168,https://hh.ru/,Python backend разработчик,140000,160000,руб.,https://hh.ru/vacancy/42633168
+87,hh40942389,https://hh.ru/,Python программист,,,,https://hh.ru/vacancy/40942389
+88,hh43319869,https://hh.ru/,Программист Python,,,,https://hh.ru/vacancy/43319869
+89,hh43537469,https://hh.ru/,Программист Python (Middle),,160000,руб.,https://hh.ru/vacancy/43537469
+90,hh43075940,https://hh.ru/,Разработчик Python,120000,220000,руб.,https://hh.ru/vacancy/43075940
+91,hh43903488,https://hh.ru/,Ведущий программист Python,190000,295000,руб.,https://hh.ru/vacancy/43903488
+92,hh43856438,https://hh.ru/,Middle/Senior Python Developer,130000,220000,руб.,https://hh.ru/vacancy/43856438
+93,hh43603028,https://hh.ru/,Python Developer,,,,https://hh.ru/vacancy/43603028
+94,hh43894166,https://hh.ru/,Middle/Senior Python developer,100000,200000,руб.,https://hh.ru/vacancy/43894166
+95,hh43503543,https://hh.ru/,Python Developer,,,,https://hh.ru/vacancy/43503543
+96,hh41772323,https://hh.ru/,Программист Python,95000,180000,руб.,https://hh.ru/vacancy/41772323
+97,hh43627174,https://hh.ru/,Middle Python Backend developer,90000,160000,руб.,https://hh.ru/vacancy/43627174
+98,hh43732410,https://hh.ru/,Программист Python,70000,90000,руб.,https://hh.ru/vacancy/43732410
+99,hh40041361,https://hh.ru/,Разработчик / Инженер-программист (Python),,200000,руб.,https://hh.ru/vacancy/40041361
+100,hh43838099,https://hh.ru/,Python middle/senior разработчик,,180000,руб.,https://hh.ru/vacancy/43838099
+101,hh42794572,https://hh.ru/,Программист Python,120000,,руб.,https://hh.ru/vacancy/42794572
+102,hh43872229,https://hh.ru/,Senior Python Developer (Django Rest framework+ Kubernetes) Product,4000,5000,USD,https://hh.ru/vacancy/43872229
+103,hh43661388,https://hh.ru/,Python Программист-разработчик,,,,https://hh.ru/vacancy/43661388
+104,hh43186332,https://hh.ru/,Senior Backend-разработчик (Python),200000,320000,руб.,https://hh.ru/vacancy/43186332
+105,hh43870154,https://hh.ru/,Python Senior Developer,150000,220000,руб.,https://hh.ru/vacancy/43870154
+106,hh43221558,https://hh.ru/,Python Developer (Neon Team),180000,,руб.,https://hh.ru/vacancy/43221558
+107,hh43270626,https://hh.ru/,Python Developer,,,,https://hh.ru/vacancy/43270626
+108,hh42600063,https://hh.ru/,Python разработчик,170000,,руб.,https://hh.ru/vacancy/42600063
+109,hh41541131,https://hh.ru/,Python разработчик Senior,150000,190000,руб.,https://hh.ru/vacancy/41541131
+110,hh43852590,https://hh.ru/,Senior Python developer,150000,220000,руб.,https://hh.ru/vacancy/43852590
+111,hh40030321,https://hh.ru/,Программист Python,70000,200000,руб.,https://hh.ru/vacancy/40030321
+112,hh43623872,https://hh.ru/,Backend разработчик (Python),160000,,руб.,https://hh.ru/vacancy/43623872
+113,hh43815825,https://hh.ru/,Python middle developer/ Python-Разработчик,160000,,руб.,https://hh.ru/vacancy/43815825
+114,hh43132197,https://hh.ru/,Разработчик микросервисов Python,60000,100000,руб.,https://hh.ru/vacancy/43132197
+115,hh43885329,https://hh.ru/,Разработчик Python/Django,90000,150000,руб.,https://hh.ru/vacancy/43885329
+116,hh43868203,https://hh.ru/,Разработчик Python (удаленно),70000,,руб.,https://hh.ru/vacancy/43868203
+117,hh43736412,https://hh.ru/,Python middle developer,100000,150000,руб.,https://hh.ru/vacancy/43736412
+118,hh43824269,https://hh.ru/,Python Fullstack Developer,,,,https://hh.ru/vacancy/43824269
+119,hh42480683,https://hh.ru/,Программист Python,80000,,руб.,https://hh.ru/vacancy/42480683
+120,hh41541061,https://hh.ru/,Python разработчик Senior,180000,250000,руб.,https://hh.ru/vacancy/41541061
+121,hh35871016,https://hh.ru/,Разработчик Python,,,,https://hh.ru/vacancy/35871016
+122,hh43036692,https://hh.ru/,Разработчик Python,,150000,руб.,https://hh.ru/vacancy/43036692
+123,hh42165443,https://hh.ru/,Python-разработчик (Middle),,220000,руб.,https://hh.ru/vacancy/42165443
+124,hh43879241,https://hh.ru/,Программист Python,50000,,руб.,https://hh.ru/vacancy/43879241
+125,hh43343275,https://hh.ru/,Разработчик Python,,200000,руб.,https://hh.ru/vacancy/43343275
+126,hh42794394,https://hh.ru/,Программист Python,120000,,руб.,https://hh.ru/vacancy/42794394
+127,hh43822796,https://hh.ru/,Python разработчик/Python developer,,,,https://hh.ru/vacancy/43822796
+128,hh41876803,https://hh.ru/,Python developer,180000,,руб.,https://hh.ru/vacancy/41876803
+129,hh43856428,https://hh.ru/,Middle/Senior Python Developer,130000,220000,руб.,https://hh.ru/vacancy/43856428
+130,hh43823116,https://hh.ru/,Middle/Senior Python developer,120000,200000,руб.,https://hh.ru/vacancy/43823116
+131,hh43450877,https://hh.ru/,"Специалист по машинному обучению (Python, Machine learning)",,140000,руб.,https://hh.ru/vacancy/43450877
+132,hh43526714,https://hh.ru/,Разработчик Python,150000,250000,руб.,https://hh.ru/vacancy/43526714
+133,hh43624444,https://hh.ru/,Middle разработчик Python / Django (удалённо),60000,120000,руб.,https://hh.ru/vacancy/43624444
+134,hh43809503,https://hh.ru/,Junior Python developer,,,,https://hh.ru/vacancy/43809503
+135,hh43124540,https://hh.ru/,Python developer / Junior ML engineer,,,,https://hh.ru/vacancy/43124540
+136,hh43456439,https://hh.ru/,Backend-разработчик Python,170000,230000,руб.,https://hh.ru/vacancy/43456439
+137,hh43369651,https://hh.ru/,Junior Python developer в Вологде,40000,40000,руб.,https://hh.ru/vacancy/43369651
+138,hh43309360,https://hh.ru/,Разработчик Python (ГИС),,,,https://hh.ru/vacancy/43309360
+139,hh43809482,https://hh.ru/,Junior Python developer,,,,https://hh.ru/vacancy/43809482
+140,hh43914394,https://hh.ru/,Python разработчик,40000,200000,руб.,https://hh.ru/vacancy/43914394
+141,hh43873567,https://hh.ru/,Audio Programmer (С++/ Python),,,,https://hh.ru/vacancy/43873567
+142,hh43858689,https://hh.ru/,Python Developer,,,,https://hh.ru/vacancy/43858689
+143,hh42330542,https://hh.ru/,Junior python разработчик (разработчик логики),60000,,руб.,https://hh.ru/vacancy/42330542
+144,hh42888152,https://hh.ru/,Python-разработчик,,,,https://hh.ru/vacancy/42888152
+145,hh43157032,https://hh.ru/,Разработчик Python,80000,120000,руб.,https://hh.ru/vacancy/43157032
+146,hh41482164,https://hh.ru/,Python developer удаленно,180000,230000,руб.,https://hh.ru/vacancy/41482164
+147,hh43280019,https://hh.ru/,Middle Python разработчик,,,,https://hh.ru/vacancy/43280019
+148,hh43118816,https://hh.ru/,Python разработчик (middle +),,200000,руб.,https://hh.ru/vacancy/43118816
+149,hh43802877,https://hh.ru/,Middle Python developer,140000,180000,руб.,https://hh.ru/vacancy/43802877
+150,hh43455147,https://hh.ru/,Senior Python developer,200000,250000,руб.,https://hh.ru/vacancy/43455147
+151,hh42809537,https://hh.ru/,Python (ruby) разработчик,80000,,руб.,https://hh.ru/vacancy/42809537
+152,hh43735860,https://hh.ru/,Python developer,,,,https://hh.ru/vacancy/43735860
+153,hh43830989,https://hh.ru/,Ведущий программист Python,140000,,руб.,https://hh.ru/vacancy/43830989
+154,hh43834486,https://hh.ru/,Python разработчик,,,,https://hh.ru/vacancy/43834486
+155,hh43154825,https://hh.ru/,Разработчик Python,,,,https://hh.ru/vacancy/43154825
+156,hh43661617,https://hh.ru/,Python разработчик,,,,https://hh.ru/vacancy/43661617
+157,hh42419682,https://hh.ru/,Разработчик Python (middle Python developer),120000,150000,руб.,https://hh.ru/vacancy/42419682
+158,hh42478661,https://hh.ru/,Python Developer (middle/senior),,190000,руб.,https://hh.ru/vacancy/42478661
+159,hh43888424,https://hh.ru/,Back-end developer Python (Junior) / Бекенд-разработчик Python,25000,,руб.,https://hh.ru/vacancy/43888424
+160,hh43394792,https://hh.ru/,Senior Python Developer,150000,,руб.,https://hh.ru/vacancy/43394792
+161,hh43351933,https://hh.ru/,Python/Django Full Stack Developer (Middle-Senior),270000,340000,руб.,https://hh.ru/vacancy/43351933
+162,hh43128940,https://hh.ru/,Lead Python developer/Data Engineer,6000,8000,USD,https://hh.ru/vacancy/43128940
+163,hh43184453,https://hh.ru/,Backend-разработчик (Python),70000,140000,руб.,https://hh.ru/vacancy/43184453
+164,hh43068966,https://hh.ru/,Разработчик Python,,,,https://hh.ru/vacancy/43068966
+165,hh43688553,https://hh.ru/,Python разработчик,,,,https://hh.ru/vacancy/43688553
+166,hh43558725,https://hh.ru/,Разработчик Python,,,,https://hh.ru/vacancy/43558725
+167,hh43623706,https://hh.ru/,Python/Go разработчик,,,,https://hh.ru/vacancy/43623706
+168,hh43180331,https://hh.ru/,Python Middle (Back-End),120000,,руб.,https://hh.ru/vacancy/43180331
+169,hh40041376,https://hh.ru/,Разработчик / Инженер-программист (Python),,230000,руб.,https://hh.ru/vacancy/40041376
+170,hh42720732,https://hh.ru/,Python Backend-разработчик (мiddle+),80000,140000,руб.,https://hh.ru/vacancy/42720732
+171,hh43520619,https://hh.ru/,Senior Python Developer,,,,https://hh.ru/vacancy/43520619
+172,hh43858539,https://hh.ru/,C++ & Python Developer,1800,2200,USD,https://hh.ru/vacancy/43858539
+173,hh41001544,https://hh.ru/,Python-разработчик,,,,https://hh.ru/vacancy/41001544
+174,hh43623428,https://hh.ru/,Python разработчик,50000,,руб.,https://hh.ru/vacancy/43623428
+175,hh41467833,https://hh.ru/,Senior QA Automation Engineer (Python),300000,,руб.,https://hh.ru/vacancy/41467833
+176,hh43600645,https://hh.ru/,Senior разработчик (Python + Django),150000,300000,руб.,https://hh.ru/vacancy/43600645
+177,hh43741652,https://hh.ru/,"Программист (С#, Python, Java,C++,Lua)",25000,60000,руб.,https://hh.ru/vacancy/43741652
+178,hh43702705,https://hh.ru/,Разработчик Python (Middle),120000,150000,руб.,https://hh.ru/vacancy/43702705
+179,hh43847381,https://hh.ru/,Python Fullstack Разработчик,,,,https://hh.ru/vacancy/43847381
+180,hh43689312,https://hh.ru/,Python разработчик / Программист Python / Python developer,,,,https://hh.ru/vacancy/43689312
+181,hh43600944,https://hh.ru/,Программист Python/Бизнес-аналитик,,,,https://hh.ru/vacancy/43600944
+182,hh43194659,https://hh.ru/,Python-разработчик,,,,https://hh.ru/vacancy/43194659
+183,hh43435041,https://hh.ru/,Программист Python (ML),,,,https://hh.ru/vacancy/43435041
+184,hh43530609,https://hh.ru/,Python Developer,,,,https://hh.ru/vacancy/43530609
+185,hh42890144,https://hh.ru/,Python разработчик в отдел автоматизации (R&D),,,,https://hh.ru/vacancy/42890144
+186,hh42522896,https://hh.ru/,Python developer,,,,https://hh.ru/vacancy/42522896
+187,hh43111080,https://hh.ru/,Senior/Middle Python разработчик,,,,https://hh.ru/vacancy/43111080
+188,hh42555938,https://hh.ru/,Python Backend разработчик,150000,250000,руб.,https://hh.ru/vacancy/42555938
+189,hh43850455,https://hh.ru/,Data Engineer (Python),,,,https://hh.ru/vacancy/43850455
+190,hh38827758,https://hh.ru/,Программист Python,,,,https://hh.ru/vacancy/38827758
+191,hh43837343,https://hh.ru/,Back-end developer Python (Middle) / Бекенд-разработчик Python,45000,,руб.,https://hh.ru/vacancy/43837343
+192,hh37029603,https://hh.ru/,Python разработчик Middle,70000,130000,руб.,https://hh.ru/vacancy/37029603
+193,hh41179196,https://hh.ru/,Python разработчик,,,,https://hh.ru/vacancy/41179196
+194,hh43394113,https://hh.ru/,Middle QA Automation Engineer (Python),180000,250000,руб.,https://hh.ru/vacancy/43394113
+195,hh43792263,https://hh.ru/,Backend developer python / Бэкенд-разработчик python,,,,https://hh.ru/vacancy/43792263
+196,hh43118599,https://hh.ru/,Backend разработчик Python,90000,150000,руб.,https://hh.ru/vacancy/43118599
+197,hh43237054,https://hh.ru/,Python Developer,160000,,руб.,https://hh.ru/vacancy/43237054
+198,hh43878598,https://hh.ru/,Программист Python,,,,https://hh.ru/vacancy/43878598
+199,hh42366222,https://hh.ru/,Backend (python) developer,,,,https://hh.ru/vacancy/42366222
+200,sj56922463,https://russia.superjob.ru,Django/Python Developer,90000,110000,руб.,https://russia.superjob.ru/vakansii/django-36422965.html
+201,sj06232763,https://russia.superjob.ru,Python Developer,,,,https://russia.superjob.ru/vakansii/python-developer-36723260.html
+202,sj62232763,https://russia.superjob.ru,Программист Python,,,,https://russia.superjob.ru/vakansii/programmist-python-36723226.html
+203,sj50901463,https://russia.superjob.ru,Программист Python,150000,180000,руб.,https://russia.superjob.ru/vakansii/programmist-python-36410905.html
+204,sj57593663,https://russia.superjob.ru,Middle Python Developer,,,,https://russia.superjob.ru/vakansii/middle-python-developer-36639575.html
+205,sj83666563,https://russia.superjob.ru,Программист Python,,,,https://russia.superjob.ru/vakansii/programmist-python-36566638.html
+206,sj52656563,https://russia.superjob.ru,Backend Python Developer / Backend-разработчик,,,,https://russia.superjob.ru/vakansii/backend-python-developer-36565625.html
+207,sj27215153,https://russia.superjob.ru,Backend-разработчик Python,,,,https://russia.superjob.ru/vakansii/backend-razrabotchik-python-35151272.html
+208,sj50138553,https://russia.superjob.ru,"Аналитик в отдел планирования (SQL, Python/R)",,,,https://russia.superjob.ru/vakansii/analitik-v-otdel-planirovaniya-35583105.html
+209,sj34338163,https://russia.superjob.ru,Senior Python разработчик,95000,,руб.,https://russia.superjob.ru/vakansii/senior-python-razrabotchik-36183343.html
+210,sj27419363,https://russia.superjob.ru,Senior Python Developer,250000,,руб.,https://russia.superjob.ru/vakansii/senior-python-developer-36391472.html
+211,sj64032663,https://russia.superjob.ru,"Архитектор баз данных, разработчик SQL, Python",120000,150000,руб.,https://russia.superjob.ru/vakansii/arhitektor-baz-dannyh-36623046.html
+212,sj45610763,https://russia.superjob.ru,Инженер-программист Python,,,,https://russia.superjob.ru/vakansii/inzhener-programmist-python-36701654.html
+213,sj81119663,https://russia.superjob.ru,Automation QA Engineer / Тестировщик (Python),160000,200000,руб.,https://russia.superjob.ru/vakansii/automation-qa-engineer-36691118.html
+214,sj57537363,https://russia.superjob.ru,Программист Python,,,,https://russia.superjob.ru/vakansii/programmist-python-36373575.html
+215,sj74346463,https://russia.superjob.ru,"Программист Python, с, с++",,,,https://russia.superjob.ru/vakansii/programmist-python-36464347.html
+216,sj49362563,https://russia.superjob.ru,Python developer,,,,https://russia.superjob.ru/vakansii/python-developer-36526394.html
+217,sj93102563,https://russia.superjob.ru,Python-разработчик,50000,,руб.,https://russia.superjob.ru/vakansii/python-razrabotchik-36520139.html
+218,sj13515553,https://russia.superjob.ru,SEO-специалист,,,,https://russia.superjob.ru/vakansii/seo-specialist-35551531.html
+219,sj72204563,https://russia.superjob.ru,Главный инженер по автоматизированному тестированию,,,,https://russia.superjob.ru/vakansii/glavnyj-inzhener-po-avtomatizirovannomu-testirovaniyu-36540227.html
+220,sj14132463,https://russia.superjob.ru,DevOps инженер,,,,https://russia.superjob.ru/vakansii/devops-inzhener-36423141.html
+221,sj45977563,https://russia.superjob.ru,Главный аналитик (направление канальной аналитики),,,,https://russia.superjob.ru/vakansii/glavnyj-analitik-36577954.html
+222,sj71764163,https://russia.superjob.ru,Специалист по информационным системам,60000,,руб.,https://russia.superjob.ru/vakansii/specialist-po-informacionnym-sistemam-36146717.html
+223,sj30746563,https://russia.superjob.ru,Инженер-программист веб-приложений,120000,,руб.,https://russia.superjob.ru/vakansii/inzhener-programmist-veb-prilozhenij-36564703.html
+224,sj89132763,https://russia.superjob.ru,Team Lead,,,,https://russia.superjob.ru/vakansii/team-lead-36723198.html
+225,sj06936663,https://russia.superjob.ru,Системный администратор,85000,100000,руб.,https://russia.superjob.ru/vakansii/sistemnyj-administrator-36663960.html
+226,sj90754663,https://russia.superjob.ru,Ведущий методист,,30000,руб.,https://russia.superjob.ru/vakansii/veduschij-metodist-36645709.html
+227,sj92137433,https://russia.superjob.ru,Продуктовый аналитик,,,,https://russia.superjob.ru/vakansii/produktovyj-analitik-33473129.html
+228,sj18594653,https://russia.superjob.ru,Ведущий инженер-программист (машиностроительное производство),75000,,руб.,https://russia.superjob.ru/vakansii/veduschij-inzhener-programmist-35649581.html
+229,sj30146663,https://russia.superjob.ru,Программист 1C,150000,,руб.,https://russia.superjob.ru/vakansii/programmist-1c-36664103.html
+230,sj97425563,https://russia.superjob.ru,Маркетолог-аналитик,,51750,руб.,https://russia.superjob.ru/vakansii/marketolog-analitik-36552479.html
+231,sj06899063,https://russia.superjob.ru,"Системный аналитик (Middle, Senior)",,,,https://russia.superjob.ru/vakansii/sistemnyj-analitik-36099860.html
+232,sj31711463,https://russia.superjob.ru,Системный инженер DevOps,155000,170000,руб.,https://russia.superjob.ru/vakansii/sistemnyj-inzhener-devops-36411713.html
+233,sj39643463,https://russia.superjob.ru,Инженер АСУ ТП,34000,,руб.,https://russia.superjob.ru/vakansii/inzhener-asu-tp-36434693.html
+234,sj58481763,https://russia.superjob.ru,Специалист по автоматизированному тестированию (банк),80000,,руб.,https://russia.superjob.ru/vakansii/specialist-po-avtomatizirovannomu-testirovaniyu-36718485.html
+235,sj97949563,https://russia.superjob.ru,Веб-аналитик,,,,https://russia.superjob.ru/vakansii/veb-analitik-36594979.html
+236,sj53224663,https://russia.superjob.ru,Ведущий программист 1С,,,,https://russia.superjob.ru/vakansii/veduschij-programmist-1s-36642235.html
+237,sj14271763,https://russia.superjob.ru,Системный инженер,,,,https://russia.superjob.ru/vakansii/sistemnyj-inzhener-36717241.html
+238,sj45929663,https://russia.superjob.ru,Программист,,,,https://russia.superjob.ru/vakansii/programmist-36692954.html
+239,sj00156753,https://russia.superjob.ru,Продуктовый аналитик (Команда цифровых продуктов и сервисов),,,,https://russia.superjob.ru/vakansii/produktovyj-analitik-35765100.html
+240,sj88004563,https://russia.superjob.ru,Аудитор,,,,https://russia.superjob.ru/vakansii/auditor-36540088.html
+241,sj00277563,https://russia.superjob.ru,Бизнес-аналитик (управление развития омниканальных продаж),,,,https://russia.superjob.ru/vakansii/biznes-analitik-36577200.html
+242,sj79811763,https://russia.superjob.ru,"Инженер-программист Qt/C++, PSQL, Linux",,120000,руб.,https://russia.superjob.ru/vakansii/inzhener-programmist-qt-36711897.html
+243,sj18686553,https://russia.superjob.ru,Руководитель бэкенд-разработки (php),,,,https://russia.superjob.ru/vakansii/rukovoditel-bekend-razrabotki-35568681.html
+244,sj10337363,https://russia.superjob.ru,Программист,,,,https://russia.superjob.ru/vakansii/programmist-36373301.html
+245,sj47900353,https://russia.superjob.ru,Начальник отдела ИТ,,,,https://russia.superjob.ru/vakansii/nachalnik-otdela-it-35300974.html
+246,sj65150563,https://russia.superjob.ru,"Системный администратор, IT-специалист",,,,https://russia.superjob.ru/vakansii/sistemnyj-administrator-36505156.html
+247,sj96361763,https://russia.superjob.ru,Сетевой инженер CCNA/HCIA,,,,https://russia.superjob.ru/vakansii/setevoj-inzhener-ccna-36716369.html
+248,sj04130563,https://russia.superjob.ru,Аналитик BI,,,,https://russia.superjob.ru/vakansii/analitik-bi-36503140.html
+249,sj39127063,https://russia.superjob.ru,"Инженер-проектировщик ИТ и слаботочных сетей (ЛВС, СКС)",70000,,руб.,https://russia.superjob.ru/vakansii/inzhener-proektirovschik-it-i-slabotochnyh-setej-36072193.html
+250,sj78698033,https://russia.superjob.ru,"Инженер, техник",35000,,руб.,https://russia.superjob.ru/vakansii/inzhener-33089687.html
+251,sj82583663,https://russia.superjob.ru,"Web-программист, Web-разработчик",27500,,руб.,https://russia.superjob.ru/vakansii/web-programmist-36638528.html
+252,sj95830563,https://russia.superjob.ru,Системный администратор (GNU / Linux),,,,https://russia.superjob.ru/vakansii/sistemnyj-administrator-36503859.html
+253,sj48032143,https://russia.superjob.ru,Учитель информатики,,,,https://russia.superjob.ru/vakansii/uchitel-informatiki-34123084.html
+254,sj13140463,https://russia.superjob.ru,Инженер по публикационной деятельности,50000,,руб.,https://russia.superjob.ru/vakansii/inzhener-po-publikacionnoj-deyatelnosti-36404131.html
+255,sj12898163,https://russia.superjob.ru,Инженер-программист C/C++,50000,,руб.,https://russia.superjob.ru/vakansii/inzhener-programmist-c-36189821.html
+256,sj63741763,https://russia.superjob.ru,Специалист второй линии технической поддержки,45000,50000,руб.,https://russia.superjob.ru/vakansii/specialist-vtoroj-linii-tehnicheskoj-podderzhki-36714736.html
+257,sj79166563,https://russia.superjob.ru,Программист PHP,,,,https://russia.superjob.ru/vakansii/programmist-php-36566197.html
+258,sj09636563,https://russia.superjob.ru,Специалист информационно-коммуникационных систем (системный администратор 2-я линия),70000,80000,руб.,https://russia.superjob.ru/vakansii/specialist-informacionno-kommunikacionnyh-sistem-36563690.html
+259,sj43420563,https://russia.superjob.ru,Ведущий инженер,150000,180000,руб.,https://russia.superjob.ru/vakansii/veduschij-inzhener-36502434.html
+260,sj40942763,https://russia.superjob.ru,DevOps инженер,,,,https://russia.superjob.ru/vakansii/devops-inzhener-36724904.html
+261,sj28722163,https://russia.superjob.ru,Инженер по эксплуатации в Отдел SRE,,,,https://russia.superjob.ru/vakansii/inzhener-po-ekspluatacii-v-otdel-sre-36122782.html
+262,sj76786563,https://russia.superjob.ru,IT инженер,,,,https://russia.superjob.ru/vakansii/it-inzhener-36568767.html
+263,sj45651723,https://russia.superjob.ru,Младший аналитик,25000,30000,руб.,https://russia.superjob.ru/vakansii/mladshij-analitik-32715654.html
+264,sj23236563,https://russia.superjob.ru,Программист микроконтроллеров,120000,150000,руб.,https://russia.superjob.ru/vakansii/programmist-mikrokontrollerov-36563232.html
+265,sj14338163,https://russia.superjob.ru,Senior PHP разработчик,95000,,руб.,https://russia.superjob.ru/vakansii/senior-php-razrabotchik-36183341.html
+266,sj10806563,https://russia.superjob.ru,Системный администратор,,,,https://russia.superjob.ru/vakansii/sistemnyj-administrator-36560801.html
+267,sj27910353,https://russia.superjob.ru,BIM-менеджер,,,,https://russia.superjob.ru/vakansii/bim-menedzher-35301972.html
+268,sj70549463,https://russia.superjob.ru,Системный администратор Windows Linux,80000,100000,руб.,https://russia.superjob.ru/vakansii/sistemnyj-administrator-windows-linux-36494507.html
+269,sj43109363,https://russia.superjob.ru,Программист С#,100000,,руб.,https://russia.superjob.ru/vakansii/programmist-s-36390134.html
+270,sj66439463,https://russia.superjob.ru,Web-аналитик (pub),,,,https://russia.superjob.ru/vakansii/web-analitik-36493466.html
+271,sj95510763,https://russia.superjob.ru,Инженер-программист C++,,,,https://russia.superjob.ru/vakansii/inzhener-programmist-c-36701559.html
+272,sj59645563,https://russia.superjob.ru,"Web-developer / Веб-программист (ASP.NET, MVC, C#)",100000,,руб.,https://russia.superjob.ru/vakansii/web-developer-36554695.html
+273,sj10048463,https://russia.superjob.ru,Инженер-программист,25000,,руб.,https://russia.superjob.ru/vakansii/inzhener-programmist-36484001.html
+274,sj70867163,https://russia.superjob.ru,Fullstack веб-разработчик,50000,50000,руб.,https://russia.superjob.ru/vakansii/fullstack-veb-razrabotchik-36176807.html
+275,sj62671663,https://russia.superjob.ru,Системный аналитик,,,,https://russia.superjob.ru/vakansii/sistemnyj-analitik-36617626.html
+276,sj06031663,https://russia.superjob.ru,"Системный администратор Asterisk, инженер VoIP",50000,,руб.,https://russia.superjob.ru/vakansii/sistemnyj-administrator-asterisk-36613060.html
+277,sj63815563,https://russia.superjob.ru,Инженер (инженер 1 (2) категории),60000,,руб.,https://russia.superjob.ru/vakansii/inzhener-36551836.html
+278,sj62011311,https://russia.superjob.ru,Ассистент/доцент кафедры информатики и компьютерных технологий,65000,80000,руб.,https://russia.superjob.ru/vakansii/assistent-11311026.html
+279,sj38069663,https://russia.superjob.ru,Ведущий специалист-администратор информационной безопасности (АИБ),80000,,руб.,https://russia.superjob.ru/vakansii/veduschij-specialist-administrator-informacionnoj-bezopasnosti-36696083.html
+280,sj62871463,https://russia.superjob.ru,DevOps инженер,,,,https://russia.superjob.ru/vakansii/devops-inzhener-36417826.html
+281,sj05118163,https://russia.superjob.ru,Ведущий веб-аналитик,,,,https://russia.superjob.ru/vakansii/veduschij-veb-analitik-36181150.html
+282,sj83709463,https://russia.superjob.ru,Руководитель отдела тестирования (QA Team Lead),,,,https://russia.superjob.ru/vakansii/rukovoditel-otdela-testirovaniya-36490738.html
+283,sj54258463,https://russia.superjob.ru,Системный администратор Linux,,,,https://russia.superjob.ru/vakansii/sistemnyj-administrator-linux-36485245.html
+284,sj42447353,https://russia.superjob.ru,Программист pyrus,,,,https://russia.superjob.ru/vakansii/programmist-pyrus-35374424.html
+285,sj06547463,https://russia.superjob.ru,"Специалист по транспортному планированию, аналитик",30000,,руб.,https://russia.superjob.ru/vakansii/specialist-po-transportnomu-planirovaniyu-36474560.html
+286,sj33234563,https://russia.superjob.ru,Разработчик full-stack,,,,https://russia.superjob.ru/vakansii/razrabotchik-full-stack-36543233.html
+287,sj44683063,https://russia.superjob.ru,Эксперт в отдел противодействия мошенничеству,,,,https://russia.superjob.ru/vakansii/ekspert-v-otdel-protivodejstviya-moshennichestvu-36038644.html
+288,sj98517463,https://russia.superjob.ru,QA ingineer,,,,https://russia.superjob.ru/vakansii/qa-ingineer-36471589.html
+289,sj30401492,https://russia.superjob.ru,Преподаватель (педагог) робототехники/программирования,72000,,руб.,https://russia.superjob.ru/vakansii/prepodavatel-29410403.html
+290,sj56248663,https://russia.superjob.ru,Аналитик,60000,,руб.,https://russia.superjob.ru/vakansii/analitik-36684265.html
+291,sj60280663,https://russia.superjob.ru,Учитель информатики,40000,,руб.,https://russia.superjob.ru/vakansii/uchitel-informatiki-36608206.html
+292,sj37812153,https://russia.superjob.ru,Web-разработчик,130000,,руб.,https://russia.superjob.ru/vakansii/web-razrabotchik-35121873.html
+293,sj52238113,https://russia.superjob.ru,Аналитик,,,,https://russia.superjob.ru/vakansii/analitik-31183225.html
+294,sj72444363,https://russia.superjob.ru,Учитель информатики,25000,,руб.,https://russia.superjob.ru/vakansii/uchitel-informatiki-36344427.html
+295,sj42396043,https://russia.superjob.ru,Senior Backend Developer,,,,https://russia.superjob.ru/vakansii/senior-backend-developer-34069324.html
+296,sj76160663,https://russia.superjob.ru,Системный администратор,,,,https://russia.superjob.ru/vakansii/sistemnyj-administrator-36606167.html
+297,sj62612933,https://russia.superjob.ru,"Web-программист, Web-разработчик (удалённо)",30000,,руб.,https://russia.superjob.ru/vakansii/web-programmist-33921626.html
+298,sj92362563,https://russia.superjob.ru,Software Developer,,,,https://russia.superjob.ru/vakansii/software-developer-36526329.html
+299,sj86876903,https://russia.superjob.ru,Инженер-программист,33000,36000,руб.,https://russia.superjob.ru/vakansii/inzhener-programmist-30967868.html
+300,sj44111763,https://russia.superjob.ru,Ведущий инженер в управление облачных решений,,,,https://russia.superjob.ru/vakansii/veduschij-inzhener-v-upravlenie-oblachnyh-reshenij-36711144.html
+301,sj94242443,https://russia.superjob.ru,DevOps Engineer,,,,https://russia.superjob.ru/vakansii/devops-engineer-34424249.html
+302,sj12384563,https://russia.superjob.ru,Backend Developer,130000,,руб.,https://russia.superjob.ru/vakansii/backend-developer-36548321.html
+303,sj14087663,https://russia.superjob.ru,DevOps в продуктовую команду,,,,https://russia.superjob.ru/vakansii/devops-v-produktovuyu-komandu-36678041.html
+304,sj35762843,https://russia.superjob.ru,Инженер-программист,50000,,руб.,https://russia.superjob.ru/vakansii/inzhener-programmist-34826753.html
+305,sj10392563,https://russia.superjob.ru,Системный аналитик,50000,,руб.,https://russia.superjob.ru/vakansii/sistemnyj-analitik-36529301.html
+306,sj07885853,https://russia.superjob.ru,Главный специалист отдела систем мониторинга и наблюдения,,48000,руб.,https://russia.superjob.ru/vakansii/glavnyj-specialist-otdela-sistem-monitoringa-i-nablyudeniya-35858870.html
+307,sj41574953,https://russia.superjob.ru,"Системный администратор, инженер веб-сервисов",60000,60000,руб.,https://russia.superjob.ru/vakansii/sistemnyj-administrator-35947514.html
+308,sj63135463,https://russia.superjob.ru,Системный администратор Linux,90000,,руб.,https://russia.superjob.ru/vakansii/sistemnyj-administrator-linux-36453136.html
+309,sj83732563,https://russia.superjob.ru,DevOps,280000,350000,руб.,https://russia.superjob.ru/vakansii/devops-36523738.html
+310,sj10405463,https://russia.superjob.ru,Инженер по тестированию,70000,80000,руб.,https://russia.superjob.ru/vakansii/inzhener-po-testirovaniyu-36450401.html
+311,sj67526533,https://russia.superjob.ru,Инженер-программист АСУТП,,,,https://russia.superjob.ru/vakansii/inzhener-programmist-asutp-33562576.html
+312,sj93140163,https://russia.superjob.ru,Инженер (программирование),40000,,руб.,https://russia.superjob.ru/vakansii/inzhener-36104139.html
+313,sj66756833,https://russia.superjob.ru,Аналитик,,,,https://russia.superjob.ru/vakansii/analitik-33865766.html
+314,sj44402563,https://russia.superjob.ru,Senior PHP Developer,,,,https://russia.superjob.ru/vakansii/senior-php-developer-36520444.html
+315,sj08518563,https://russia.superjob.ru,PHP developer,120000,123000,руб.,https://russia.superjob.ru/vakansii/php-developer-36581580.html
+316,sj25585663,https://russia.superjob.ru,Разработчик C++ (Senior),,300000,руб.,https://russia.superjob.ru/vakansii/razrabotchik-c-36658552.html
+317,sj79303003,https://russia.superjob.ru,Инженер-программист,50000,,руб.,https://russia.superjob.ru/vakansii/inzhener-programmist-30030397.html
+318,sj92316563,https://russia.superjob.ru,Тестировщик ПО,70000,70000,руб.,https://russia.superjob.ru/vakansii/testirovschik-po-36561329.html
+319,sj81597563,https://russia.superjob.ru,Сетевой инженер (тестирование),,,,https://russia.superjob.ru/vakansii/setevoj-inzhener-36579518.html
+320,sj07898333,https://russia.superjob.ru,Главный инженер по прикладному сопровождению интеграционных решений,,,,https://russia.superjob.ru/vakansii/glavnyj-inzhener-po-prikladnomu-soprovozhdeniyu-integracionnyh-reshenij-33389870.html
+321,sj07877663,https://russia.superjob.ru,Программист 1С,,,,https://russia.superjob.ru/vakansii/programmist-1s-36677870.html
+322,sj17727663,https://russia.superjob.ru,Backend Developer C++,,,,https://russia.superjob.ru/vakansii/backend-developer-c-36672771.html
+323,sj57518563,https://russia.superjob.ru,Rust Developer,160000,170000,руб.,https://russia.superjob.ru/vakansii/rust-developer-36581575.html
+324,sj50797043,https://russia.superjob.ru,Руководитель направления,,,,https://russia.superjob.ru/vakansii/rukovoditel-napravleniya-34079705.html
+325,sj18057663,https://russia.superjob.ru,QA Engineer (нагрузочное тестирование),,,,https://russia.superjob.ru/vakansii/qa-engineer-36675081.html
+326,sj08057663,https://russia.superjob.ru,Инженер внедрения и сопровождения (проект ГосТех),,,,https://russia.superjob.ru/vakansii/inzhener-vnedreniya-i-soprovozhdeniya-36675080.html
+327,sj87057663,https://russia.superjob.ru,Менеджер проекта (IT Bootcamp Сбера),,,,https://russia.superjob.ru/vakansii/menedzher-proekta-36675078.html
+328,sj77057663,https://russia.superjob.ru,SRE/DevOps,,,,https://russia.superjob.ru/vakansii/sre-36675077.html
+329,sj11101663,https://russia.superjob.ru,Старший специалист технической поддержки,,,,https://russia.superjob.ru/vakansii/starshij-specialist-tehnicheskoj-podderzhki-36610111.html
+330,sj12930463,https://russia.superjob.ru,DevOps инженер,,,,https://russia.superjob.ru/vakansii/devops-inzhener-36403921.html
