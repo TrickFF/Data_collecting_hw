@@ -24,16 +24,10 @@ count_1 = db.vacancies.estimated_document_count()
 df.reset_index(inplace=True)
 data_dict = df.to_dict("records")
 
-# Функция добавления в базу недублирующихся саписей и обновления информации по имеющимся
-def process_item(item):
-    if vacancies.count_documents({'_id': item['_id']}) > 0:
-        vacancies.update_one({'_id': item['_id']}, {'$set': item}) # Обновляем инфу по имеющимся в базе вакансиям
-        pass
-    else:
-        vacancies.insert_one(item) # Добавляем инфу по новым вакансиям
-
+# Обновляем инфу по имеющимся записям и добавляем новые (upsert=True)
 for rec in data_dict:
-    process_item(rec)
+    vacancies.update_one({'_id': rec['_id']}, {'$set': rec}, upsert=True)
+
 
 pprint(f'Всего вакансий в базе после импорта: {db.vacancies.estimated_document_count()}')
 pprint(f'Итого импортировано {db.vacancies.estimated_document_count() - count_1} новых записей')
