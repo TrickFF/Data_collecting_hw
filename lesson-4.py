@@ -79,7 +79,9 @@ for item in items:
     name_str = name.replace('\xa0', ' ')
 
     # Приводим дату/время новостей к единому формату в секундах
-    time = str(datetime.datetime.now().date()) + " " + str(item.xpath(".//span[@class='mg-card-source__time']/text()")[0])
+    time = str(datetime.datetime.now().date()) + " " +\
+           str(item.xpath(".//span[@class='mg-card-source__time']/text()")[0]).replace('вчера в ', '')
+
     time_str = (datetime.datetime.now() - datetime.datetime.strptime(time, "%Y-%m-%d %H:%M")).total_seconds()
 
     news['source'] = source
@@ -121,7 +123,6 @@ for item in items:
     news['link'] = link
     news['time'] = page_scarp(link)[2]
     news_data.append(news)
-
 
 # Очистка всей коллекции
 # news_db.delete_many({})
