@@ -40,7 +40,7 @@ for item in items:
     source = 'https://lenta.ru'
     name = item.xpath("./a/text()")[0]
 
-    # инггда в блоке новостей проскакивают новости со сторонних источников
+    # иногда в блоке новостей проскакивают новости со сторонних источников
     if item.xpath("./a[contains(@href, '/news/2')]/@href"):
         link = source + item.xpath("./a[contains(@href, '/news/2')]/@href")[0]
     else:
