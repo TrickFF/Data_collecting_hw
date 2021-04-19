@@ -105,8 +105,8 @@ def page_scarp(link):
         # Приводим дату/время новостей к единому формату в секундах
         time = el.xpath(".//span[contains(@datetime, ':')]/@datetime")[0] if\
             el.xpath(".//span[contains(@datetime, ':')]/@datetime")[0] else ''
-        time_str = (datetime.datetime.now() - datetime.datetime.strptime(time.split(sep='+')[0].replace('T', ' ')[:-3],
-                                                                         "%Y-%m-%d %H:%M")).total_seconds()
+        time_str = (datetime.datetime.now() - datetime.datetime.strptime(time.split(sep='+')[0].replace('T', ' '),
+                                                                         "%Y-%m-%d %H:%M:%S")).total_seconds()
 
         return name, source, time_str
 
@@ -122,8 +122,9 @@ for item in items:
     news['time'] = page_scarp(link)[2]
     news_data.append(news)
 
+
 # Очистка всей коллекции
-# ews_db.delete_many({})
+# news_db.delete_many({})
 
 # Переменная хранит количество новостей до импорта
 count_1 = db.news.estimated_document_count()
@@ -135,7 +136,7 @@ if news_data:
                                                             'source': nst['source'], 'time': nst['time']}}, upsert=True)
 
 # Вывод последних 10 новостей из базы
-for el in news_db.find({}, limit=10).sort('time', 1):
+for el in news_db.find({}, limit=10).sort('time', -1):
     print(f'\nНовость : {el["name"]}')
     print(f'Ссылка  : {el["link"]}')
     print(f'Источник: {el["source"]}')
