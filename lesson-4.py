@@ -75,7 +75,7 @@ for item in items:
     source_name = item.xpath(".//a/@aria-label")[0] if item.xpath(".//a/@aria-label")[0] else ''
     source = source_name.replace('Источник: ', '')
     link = item.xpath(".//div/a/@href")[0]
-    name_str = item.xpath(".//a/h2/text()")[0]
+    name_str = str(item.xpath(".//a/h2/text()")[0]).replace('\xa0', ' ')
 
     # Приводим дату/время новостей к единому формату в секундах
     time = str(datetime.datetime.now().date()) + " " +\
@@ -151,58 +151,58 @@ print(f'Добавлено {db.news.estimated_document_count() - count_1} нов
 """
 Результат:
 
-Новость : Раскрыт лучший план действий при потере путевки в Турцию
-Ссылка  : https://lenta.ru/news/2021/04/19/luchshiy/
+Новость : МИД заявил об имуществе Чехии после идеи отнять землю посольства в Праге
+Ссылка  : https://yandex.ru/news/story/MID_zayavil_ob_imushhestve_CHekhii_posle_idei_otnyat_zemlyu_posolstva_vPrage--2ed4ce6d3a6a2277ede146a3ec90a53c?lang=ru&rubric=index&fan=1&stid=t74gzHxVFuOTiWVuCzS4&t=1618867703&tt=true&persistent_id=140566478
+Источник: РБК
+Дата    : 2021-04-20 23:46:04
+
+Новость : Бабиш отказался считать взрыв в Врбетице нападением России на Чехию
+Ссылка  : https://yandex.ru/news/story/Babish_otkazalsya_schitat_vzryv_vVrbetice_napadeniem_Rossii_naCHekhiyu--53f842dca7508dadd015a7cd06146171?lang=ru&rubric=index&fan=1&stid=TGCC8uoiU_JC-nkDEt9-&t=1618867703&tt=true&persistent_id=140556955
+Источник: РБК
+Дата    : 2021-04-20 23:37:04
+
+Новость : Младенец оказался под завалами после взрыва жилого дома в Нижегородской области
+Ссылка  : https://lenta.ru/news/2021/04/19/vzryv/
 Источник: https://lenta.ru
-Дата    : 2021-04-19 20:53:04
+Дата    : 2021-04-20 00:35:04
 
-Новость : Премьер-министр Чехии Андрей Бабиш отказался считать взрывы на складе боеприпасов во Врбетице актом государственного терроризма.
-Ссылка  : https://yandex.ru/news/story/Premer_CHekhii_otkazalsya_schitat_vzryvy_vo_Vrbetice_terrorizmom--a3a7ecabd83fc1923a7ae25b33071075?lang=ru&rubric=index&fan=1&stid=0c5irYvW-nkD5QJI0Dj9&t=1618854903&tt=true&persistent_id=140556955
-Источник: Lenta.ru
-Дата    : 2021-04-19 20:52:04
+Новость : День в истории: 20 апреля
+Ссылка  : https://news.mail.ru/society/46002206/
+Источник: Новости Mail.ru
+Дата    : 2021-04-20 00:30:47
 
-Новость : 12 ведущих клубов Англии, Испании и Италии объявили о создании Суперлиги В ночь на понедельник в европейском футболе произошло важнейшее событие, которое может иметь глобальные последствия для всего мирового спорта.
-Ссылка  : https://yandex.ru/sport/story/12_vedushhikh_klubov_Anglii_Ispanii_i_Italii_obyavili_osozdanii_Superligi--670249e9bbb1b4f9a3078a5cd348840c?lang=ru&rubric=index&fan=1&stid=AQsZy6aoH0kziwdTov00&t=1618854781&tt=true&persistent_id=140462953&utm_source=yxnews&utm_medium=desktop
-Источник: Коммерсантъ
-Дата    : 2021-04-19 20:50:54
+Новость : ВОЗ назвала сроки взятия коронавируса под контроль
+Ссылка  : https://lenta.ru/news/2021/04/20/control/
+Источник: https://lenta.ru
+Дата    : 2021-04-20 00:24:04
 
-Новость : Власти Праги потребовали от России вернуть часть городского парка Стромовка, которую занимает сейчас российское посольство в столице Чехии, заявил староста района «Прага-7» Ян Чижински в Twitter.
-Ссылка  : https://yandex.ru/news/story/Vlasti_Pragi_potrebovali_otposolstva_Rossii_vernut_chast_parka_Stromovka--6dbfd85c6c78c24f882921e7fcddec08?lang=ru&rubric=index&fan=1&stid=gTgFckOeRs5CCzS4O2O1&t=1618853895&tt=true&persistent_id=140539116
-Источник: Ведомости
-Дата    : 2021-04-19 20:50:47
+Новость : Боровой назвал подталкивавших Ельцина к войне в Чечне людей
+Ссылка  : https://lenta.ru/news/2021/04/20/push/
+Источник: https://lenta.ru
+Дата    : 2021-04-20 00:21:04
 
-Новость : Участки российского посольства в Чехии были выделены СССР в начале 70-х годов на основании действующих советско-чехословацких соглашений.
-Ссылка  : https://yandex.ru/news/story/MID_RF_otreagiroval_natrebovanie_CHekhii_vernut_chast_parka_Stromovka--39a3053e31e27389d898e8572c5cccd2?lang=ru&rubric=index&fan=1&stid=ZnuVCzS4Rs5CS1wSO2O1&t=1618854337&tt=true&persistent_id=140539116
+Новость : Вице-премьер Борисов предупредил о риске катастрофы на МКС
+Ссылка  : https://yandex.ru/news/story/Vice-premer_Borisov_predupredil_oriske_katastrofy_naMKS--7e3460c996f624503e501f2a40a475e1?lang=ru&rubric=index&fan=1&stid=EAA1iVMQUWc1NtNSsy6S&t=1618867703&tt=true&persistent_id=140560464
 Источник: Известия
-Дата    : 2021-04-19 20:50:36
+Дата    : 2021-04-20 00:20:04
 
-Новость : В Москве задержали развращавшего детей в социальных сетях россиянина
-Ссылка  : https://lenta.ru/news/2021/04/19/zaderzhali/
+Новость : Олимпийский чемпион предложил норвежцу мыло и веревку после критики формы России
+Ссылка  : https://lenta.ru/news/2021/04/20/vasiliev/
 Источник: https://lenta.ru
-Дата    : 2021-04-19 20:50:04
+Дата    : 2021-04-20 00:13:04
 
-Новость : Фракция президентской партии "Слуга народа" в Верховной раде потребовала расторжения дипломатических отношений с Россией.
-Ссылка  : https://yandex.ru/news/story/Frakciya_Zelenskogo_vRade_potrebovala_rastorzheniya_dipotnoshenij_sRossiej--215a3f71cf71cfe89184c075a6eb0738?lang=ru&rubric=index&fan=1&stid=KWZ0WHG1W3nWMh_OloMm&t=1618854903&tt=true&persistent_id=140557207
-Источник: ТАСС
-Дата    : 2021-04-19 20:50:04
+Новость : Диетолог описала безопасную для здоровья порцию шашлыка
+Ссылка  : https://lenta.ru/news/2021/04/20/shashlyk/
+Источник: https://lenta.ru
+Дата    : 2021-04-20 00:10:04
 
-Новость : Федеральная антимонопольная служба (ФАС) России возбудила дело в отношении Google, так как принадлежащий ему Youtube, по мнению ведомства, злоупотребляет своим доминирующим положением на рынке.
-Ссылка  : https://yandex.ru/news/story/FAS_vozbudila_delo_votnoshenii_Google_iz-zadejstvij_Youtube--f653ba34ed067cc5afbe770b58175dda?lang=ru&rubric=index&fan=1&stid=OmEorDzd_jlCENjhmkei&t=1618853895&tt=true&persistent_id=140550813
-Источник: Ведомости
-Дата    : 2021-04-19 20:49:47
+Новость : Смартфон Samsung взорвался в рюкзаке владельца
+Ссылка  : https://lenta.ru/news/2021/04/20/samsungfail/
+Источник: https://lenta.ru
+Дата    : 2021-04-20 00:10:04
 
-Новость : Власти Праги потребовали от России вернуть часть городского парка Стромовка, которую занимает сейчас российское посольство в столице Чехии, заявил староста района «Прага-7» Ян Чижински в Twitter.
-Ссылка  : https://yandex.ru/news/story/Vlasti_Pragi_potrebovali_otposolstva_Rossii_vernut_chast_parka_Stromovka--6dbfd85c6c78c24f882921e7fcddec08?lang=ru&rubric=index&fan=1&stid=ckOeRs5CCzS4S1wSO2O1&t=1618854116&tt=true&persistent_id=140539116
-Источник: Ведомости
-Дата    : 2021-04-19 20:49:31
-
-Новость : Премьер-министр Чехии Андрей Бабиш отказался считать взрывы на складе боеприпасов во Врбетице актом государственного терроризма.
-Ссылка  : https://yandex.ru/news/story/Premer_CHekhii_otkazalsya_schitat_vzryvy_vo_Vrbetice_terrorizmom--a3a7ecabd83fc1923a7ae25b33071075?lang=ru&rubric=index&fan=1&stid=0c5i-nkDrYvW5QJI0Dj9&t=1618854559&tt=true&persistent_id=140556955
-Источник: Lenta.ru
-Дата    : 2021-04-19 20:47:51
-
-Новостей в базе до импорта данных: 46
-Новостей в базе после импорта: 51
-Добавлено 5 новостей
+Новостей в базе до импорта данных: 22
+Новостей в базе после импорта: 28
+Добавлено 6 новостей
 
 """
