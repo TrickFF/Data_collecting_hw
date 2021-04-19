@@ -124,7 +124,7 @@ for item in items:
     news_data.append(news)
 
 # Очистка всей коллекции
-news_db.delete_many({})
+# news_db.delete_many({})
 
 # Переменная хранит количество новостей до импорта
 count_1 = db.news.estimated_document_count()
