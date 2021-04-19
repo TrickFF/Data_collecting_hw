@@ -75,8 +75,7 @@ for item in items:
     source_name = item.xpath(".//a/@aria-label")[0] if item.xpath(".//a/@aria-label")[0] else ''
     source = source_name.replace('Источник: ', '')
     link = item.xpath(".//div/a/@href")[0]
-    name = str(item.xpath(".//div/div/text()")[0])
-    name_str = name.replace('\xa0', ' ')
+    name_str = item.xpath(".//a/h2/text()")[0]
 
     # Приводим дату/время новостей к единому формату в секундах
     time = str(datetime.datetime.now().date()) + " " +\
@@ -125,7 +124,7 @@ for item in items:
     news_data.append(news)
 
 # Очистка всей коллекции
-# news_db.delete_many({})
+news_db.delete_many({})
 
 # Переменная хранит количество новостей до импорта
 count_1 = db.news.estimated_document_count()
@@ -137,7 +136,7 @@ if news_data:
                                                             'source': nst['source'], 'time': nst['time']}}, upsert=True)
 
 # Вывод последних 10 новостей из базы
-for el in news_db.find({}, limit=10).sort('time', -1):
+for el in news_db.find({}, limit=10).sort('time', 1):
     print(f'\nНовость : {el["name"]}')
     print(f'Ссылка  : {el["link"]}')
     print(f'Источник: {el["source"]}')
