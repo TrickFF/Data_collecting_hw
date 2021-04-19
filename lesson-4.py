@@ -140,7 +140,7 @@ for el in news_db.find({}, limit=10).sort('time', 1):
     print(f'Ссылка  : {el["link"]}')
     print(f'Источник: {el["source"]}')
     now_time = (datetime.datetime.now()).timestamp()
-    print(f'Дата:   {datetime.datetime.fromtimestamp(now_time - el["time"]).strftime("%Y-%m-%d %H:%M:%S")}')
+    print(f'Дата    : {datetime.datetime.fromtimestamp(now_time - el["time"]).strftime("%Y-%m-%d %H:%M:%S")}')
 
 
 print(f'\nНовостей в базе до импорта данных: {count_1}')
@@ -153,52 +153,52 @@ print(f'Добавлено {db.news.estimated_document_count() - count_1} нов
 Новость : Раскрыт лучший план действий при потере путевки в Турцию
 Ссылка  : https://lenta.ru/news/2021/04/19/luchshiy/
 Источник: https://lenta.ru
-Дата:   2021-04-19 20:53:04
+Дата    : 2021-04-19 20:53:04
 
 Новость : Премьер-министр Чехии Андрей Бабиш отказался считать взрывы на складе боеприпасов во Врбетице актом государственного терроризма.
 Ссылка  : https://yandex.ru/news/story/Premer_CHekhii_otkazalsya_schitat_vzryvy_vo_Vrbetice_terrorizmom--a3a7ecabd83fc1923a7ae25b33071075?lang=ru&rubric=index&fan=1&stid=0c5irYvW-nkD5QJI0Dj9&t=1618854903&tt=true&persistent_id=140556955
 Источник: Lenta.ru
-Дата:   2021-04-19 20:52:04
+Дата    : 2021-04-19 20:52:04
 
 Новость : 12 ведущих клубов Англии, Испании и Италии объявили о создании Суперлиги В ночь на понедельник в европейском футболе произошло важнейшее событие, которое может иметь глобальные последствия для всего мирового спорта.
 Ссылка  : https://yandex.ru/sport/story/12_vedushhikh_klubov_Anglii_Ispanii_i_Italii_obyavili_osozdanii_Superligi--670249e9bbb1b4f9a3078a5cd348840c?lang=ru&rubric=index&fan=1&stid=AQsZy6aoH0kziwdTov00&t=1618854781&tt=true&persistent_id=140462953&utm_source=yxnews&utm_medium=desktop
 Источник: Коммерсантъ
-Дата:   2021-04-19 20:50:54
+Дата    : 2021-04-19 20:50:54
 
 Новость : Власти Праги потребовали от России вернуть часть городского парка Стромовка, которую занимает сейчас российское посольство в столице Чехии, заявил староста района «Прага-7» Ян Чижински в Twitter.
 Ссылка  : https://yandex.ru/news/story/Vlasti_Pragi_potrebovali_otposolstva_Rossii_vernut_chast_parka_Stromovka--6dbfd85c6c78c24f882921e7fcddec08?lang=ru&rubric=index&fan=1&stid=gTgFckOeRs5CCzS4O2O1&t=1618853895&tt=true&persistent_id=140539116
 Источник: Ведомости
-Дата:   2021-04-19 20:50:47
+Дата    : 2021-04-19 20:50:47
 
 Новость : Участки российского посольства в Чехии были выделены СССР в начале 70-х годов на основании действующих советско-чехословацких соглашений.
 Ссылка  : https://yandex.ru/news/story/MID_RF_otreagiroval_natrebovanie_CHekhii_vernut_chast_parka_Stromovka--39a3053e31e27389d898e8572c5cccd2?lang=ru&rubric=index&fan=1&stid=ZnuVCzS4Rs5CS1wSO2O1&t=1618854337&tt=true&persistent_id=140539116
 Источник: Известия
-Дата:   2021-04-19 20:50:36
+Дата    : 2021-04-19 20:50:36
 
 Новость : В Москве задержали развращавшего детей в социальных сетях россиянина
 Ссылка  : https://lenta.ru/news/2021/04/19/zaderzhali/
 Источник: https://lenta.ru
-Дата:   2021-04-19 20:50:04
+Дата    : 2021-04-19 20:50:04
 
 Новость : Фракция президентской партии "Слуга народа" в Верховной раде потребовала расторжения дипломатических отношений с Россией.
 Ссылка  : https://yandex.ru/news/story/Frakciya_Zelenskogo_vRade_potrebovala_rastorzheniya_dipotnoshenij_sRossiej--215a3f71cf71cfe89184c075a6eb0738?lang=ru&rubric=index&fan=1&stid=KWZ0WHG1W3nWMh_OloMm&t=1618854903&tt=true&persistent_id=140557207
 Источник: ТАСС
-Дата:   2021-04-19 20:50:04
+Дата    : 2021-04-19 20:50:04
 
 Новость : Федеральная антимонопольная служба (ФАС) России возбудила дело в отношении Google, так как принадлежащий ему Youtube, по мнению ведомства, злоупотребляет своим доминирующим положением на рынке.
 Ссылка  : https://yandex.ru/news/story/FAS_vozbudila_delo_votnoshenii_Google_iz-zadejstvij_Youtube--f653ba34ed067cc5afbe770b58175dda?lang=ru&rubric=index&fan=1&stid=OmEorDzd_jlCENjhmkei&t=1618853895&tt=true&persistent_id=140550813
 Источник: Ведомости
-Дата:   2021-04-19 20:49:47
+Дата    : 2021-04-19 20:49:47
 
 Новость : Власти Праги потребовали от России вернуть часть городского парка Стромовка, которую занимает сейчас российское посольство в столице Чехии, заявил староста района «Прага-7» Ян Чижински в Twitter.
 Ссылка  : https://yandex.ru/news/story/Vlasti_Pragi_potrebovali_otposolstva_Rossii_vernut_chast_parka_Stromovka--6dbfd85c6c78c24f882921e7fcddec08?lang=ru&rubric=index&fan=1&stid=ckOeRs5CCzS4S1wSO2O1&t=1618854116&tt=true&persistent_id=140539116
 Источник: Ведомости
-Дата:   2021-04-19 20:49:31
+Дата    : 2021-04-19 20:49:31
 
 Новость : Премьер-министр Чехии Андрей Бабиш отказался считать взрывы на складе боеприпасов во Врбетице актом государственного терроризма.
 Ссылка  : https://yandex.ru/news/story/Premer_CHekhii_otkazalsya_schitat_vzryvy_vo_Vrbetice_terrorizmom--a3a7ecabd83fc1923a7ae25b33071075?lang=ru&rubric=index&fan=1&stid=0c5i-nkDrYvW5QJI0Dj9&t=1618854559&tt=true&persistent_id=140556955
 Источник: Lenta.ru
-Дата:   2021-04-19 20:47:51
+Дата    : 2021-04-19 20:47:51
 
 Новостей в базе до импорта данных: 46
 Новостей в базе после импорта: 51
