@@ -54,8 +54,8 @@ for item in items:
         .replace(' октября ', '-10-').replace(' ноября ', '-11-').replace(' декабряя ', '-12-').split(sep=', ')
     time_str[1] = time_str[1].split(sep='-')
     time_str[1] = str(time_str[1][2] + '-' + time_str[1][1] + '-' + time_str[1][0])
-    time_str = (datetime.datetime.now() - datetime.datetime.strptime(str(time_str[1] + time_str[0]),
-                                                                     "%Y-%m-%d %H:%M")).total_seconds()
+    time_str = (datetime.datetime.strptime(str(time_str[1] + time_str[0]),
+                                                                     "%Y-%m-%d %H:%M")).timestamp()
 
     name_str = name.replace('\xa0', ' ')
 
@@ -81,7 +81,7 @@ for item in items:
     time = str(datetime.datetime.now().date()) + " " +\
            str(item.xpath(".//span[@class='mg-card-source__time']/text()")[0]).replace('вчера в ', '')
 
-    time_str = (datetime.datetime.now() - datetime.datetime.strptime(time, "%Y-%m-%d %H:%M")).total_seconds()
+    time_str = (datetime.datetime.strptime(time, "%Y-%m-%d %H:%M")).timestamp()
 
     news['source'] = source
     news['name'] = name_str
@@ -106,8 +106,8 @@ def page_scarp(link):
         # Приводим дату/время новостей к единому формату в секундах
         time = el.xpath(".//span[contains(@datetime, ':')]/@datetime")[0] if\
             el.xpath(".//span[contains(@datetime, ':')]/@datetime")[0] else ''
-        time_str = (datetime.datetime.now() - datetime.datetime.strptime(time.split(sep='+')[0].replace('T', ' '),
-                                                                         "%Y-%m-%d %H:%M:%S")).total_seconds()
+        time_str = (datetime.datetime.strptime(time.split(sep='+')[0].replace('T', ' '),
+                                                                         "%Y-%m-%d %H:%M:%S")).timestamp()
 
         return name, source, time_str
 
@@ -123,11 +123,14 @@ for item in items:
     news['time'] = page_scarp(link)[2]
     news_data.append(news)
 
+
 # Очистка всей коллекции
-# news_db.delete_many({})
+news_db.delete_many({})
+
 
 # Переменная хранит количество новостей до импорта
 count_1 = db.news.estimated_document_count()
+
 
 # Импорт/обнвление данных по новостям в базе
 if news_data:
@@ -135,13 +138,13 @@ if news_data:
         news_db.update_one({'link': nst['link']}, {'$set': {'link': nst['link'], 'name': nst['name'],
                                                             'source': nst['source'], 'time': nst['time']}}, upsert=True)
 
+
 # Вывод последних 10 новостей из базы
-for el in news_db.find({}, limit=10).sort('time', 1):
+for el in news_db.find({}, limit=10).sort('time', -1):
     print(f'\nНовость : {el["name"]}')
     print(f'Ссылка  : {el["link"]}')
     print(f'Источник: {el["source"]}')
-    now_time = (datetime.datetime.now()).timestamp()
-    print(f'Дата    : {datetime.datetime.fromtimestamp(now_time - el["time"]).strftime("%Y-%m-%d %H:%M:%S")}')
+    print(f'Дата    : {datetime.datetime.fromtimestamp(el["time"]).strftime("%Y-%m-%d %H:%M:%S")}')
 
 
 print(f'\nНовостей в базе до импорта данных: {count_1}')
