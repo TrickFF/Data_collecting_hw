@@ -80,7 +80,6 @@ for item in items:
     # Приводим дату/время новостей к единому формату в секундах
     time = str(datetime.datetime.now().date()) + " " +\
            str(item.xpath(".//span[@class='mg-card-source__time']/text()")[0]).replace('вчера в ', '')
-
     time_str = (datetime.datetime.strptime(time, "%Y-%m-%d %H:%M")).timestamp()
 
     news['source'] = source
@@ -125,7 +124,7 @@ for item in items:
 
 
 # Очистка всей коллекции
-news_db.delete_many({})
+# news_db.delete_many({})
 
 
 # Переменная хранит количество новостей до импорта
