@@ -41,7 +41,6 @@ for item in items:
     name = item.xpath("./a/text()")[0]
 
     # иногда в блоке новостей проскакивают новости со сторонних источников
-    # если ошибка, то искать тут
     link = source + item.xpath("./a[contains(@href, '/news/2')]/@href")[0] if\
         item.xpath("./a[contains(@href, '/news/2')]/@href") else\
         item.xpath("./a[contains(@class, 'b-link-external')]/@href")[0]
@@ -80,6 +79,7 @@ for item in items:
     # Приводим дату/время новостей к единому формату в секундах
     time = str(datetime.datetime.now().date()) + " " +\
            str(item.xpath(".//span[@class='mg-card-source__time']/text()")[0]).replace('вчера в ', '')
+
     time_str = (datetime.datetime.strptime(time, "%Y-%m-%d %H:%M")).timestamp()
 
     news['source'] = source
@@ -99,7 +99,7 @@ def page_scarp(link):
     elements = dom.xpath(".//div[contains(@class, 'js-article')]")
     for el in elements:
         name = str(el.xpath(".//h1/text()")[0])
-        source = el.xpath(".//span[@class='link__text']/text()")[0] if\
+        source = str(el.xpath(".//span[@class='link__text']/text()")[0]) if\
             el.xpath(".//span[@class='link__text']/text()")[0] else ''
 
         # Приводим дату/время новостей к единому формату в секундах
