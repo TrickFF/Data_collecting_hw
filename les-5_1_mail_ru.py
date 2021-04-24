@@ -122,10 +122,10 @@ driver.close()
 # Очистка всей коллекции
 # mail_db.delete_many({})
 
-# Переменная хранит количество новостей до импорта
+# Переменная хранит количество писем до импорта
 count_1 = db.mail.estimated_document_count()
 
-# Импорт/обнвление данных по новостям в базе
+# Импорт/обнвление данных по письмам в базе
 for mail in mail_data:
     mail_db.update_one({'_id': mail['id']}, {'$set': {'_id': mail['id'], 'link': mail['link'], 'header': mail['header'],
                         'sender': mail['sender'], 'date': mail['date'], 'msg': mail['msg']}}, upsert=True)
