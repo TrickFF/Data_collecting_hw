@@ -24,8 +24,8 @@ if __name__ == '__main__':
     process = CrawlerProcess(settings=crawler_settings)
 
     # query используется в названии папки хранения изображений, поэтому удаляем возможные недопустимые символы
-    query = input('Введите категорию товара: ').lower().replace('\\', '_').replace('/', '_').replace(':', '_').replace('*', '_').\
-            replace('?', '_').replace('"', '_').replace('<', '_').replace('>', '_').replace('|', '_').replace(' ', '_')
+    query = input('Введите категорию товара: ').lower().replace('\\', '_').replace('/', '_').replace(':', '_').\
+        replace('*', '_').replace('?', '_').replace('"', '_').replace('<', '_').replace('>', '_').replace('|', '_')
     process.crawl(LeroySpider, query=query)
 
     process.start()
